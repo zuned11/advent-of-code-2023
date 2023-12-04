@@ -10,7 +10,7 @@ games = {}
 for game in input:
 	key = int(game[5:game.index(':')])
 	games[key] = {
-		'red': 0, 'blue': 0, 'green': 0
+		'red': 0, 'blue': 0, 'green': 0,
 	}
 	hands = game[game.index(':')+2::].split('; ')
 	#'1 green, 3 red, 6 blue'
